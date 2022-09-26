@@ -5,7 +5,7 @@
   finished-text="没有更多了"
   :error="error"
   erroe-text="加载失败，请点击重试"
-  immediate-check="false"
+  :immediate-check="false"
   @load="onLoad"
   >
   <comment-item v-for="(item, index) in list" :key="index"

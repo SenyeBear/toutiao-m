@@ -116,7 +116,7 @@
           />
           <!-- <van-icon name="star-o" /> -->
           <!-- <van-button class="btn-item" icon="good-job-o" /> -->
-          <van-button class="btn-item" icon="share" />
+          <van-button class="btn-item" icon="share-o" />
           </div>
       </div>
         <!-- /底部区域 -->
@@ -315,6 +315,7 @@ export default {
     right: 0;
     top: 92px;
     bottom: 88px;
+    padding: 20px 40px 20px 40px;
     overflow-y: scroll;
     background-color: #fff;
     .van-loading--vertical {
@@ -349,6 +350,7 @@ export default {
             .follow-btn {
               width: 170px;
               height: 58px;
+              border: 1px solid #dbdbdb;
               border-radius: 29px;
             }
 

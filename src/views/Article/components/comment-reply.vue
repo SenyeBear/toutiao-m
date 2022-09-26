@@ -72,6 +72,7 @@ export default {
   data () {
     return {
       isPostShow: false,
+      c: 'c',
       commentList: [] // 评论的回复列表
     }
   },
@@ -89,6 +90,11 @@ export default {
 </script>
 
 <style  scoped lang="less">
+.comment-reply {
+  .van-nav-bar .van-icon {
+    color: #fff;
+  }
+}
 .scroll-wrap {
   position: fixed;
   top: 92px;

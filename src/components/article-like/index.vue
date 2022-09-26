@@ -1,7 +1,7 @@
 <template>
   <div>
     <van-button
-   :icon="value ? 'good-job' : 'good-job-o'"
+   :icon="value > 0 ? 'good-job' : 'good-job-o'"
    :class="{
     liked: value === 1
    }"
